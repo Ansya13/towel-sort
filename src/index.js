@@ -11,7 +11,7 @@ module.exports = function towelSort(matrix = 0) {
             let b = 0;
             if (!(i % 2 == 0)) {
                 item.reverse();
-                b = new Map([a]).join(',');
+                b = new Map([a]);
                 b = a.join(',');
                 return c = b.split(',').map(Number);
             }
